@@ -121,6 +121,21 @@ header {
   margin-left: -32px; /* img has natural padding on the left :( */
 }
 
+.bike-shares {
+  column-count: 4;
+  -webkit-column-count: 4;
+  column-gap: 40px;
+  -webkit-column-gap: 40px;
+  margin-bottom: 30px;
+}
+
+.bike-shares img {
+  width: auto;
+  height: 100px;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
