@@ -130,8 +130,6 @@ header {
 }
 
 .bike-shares img {
-  width: auto;
-  height: 100px;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
