@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <title>Motivate Bicycle Share Developer Resources by motivateco</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Motivate Developer Resources by motivateco</title>
         <link rel="stylesheet" href="stylesheets/styles.css">
         <link rel="stylesheet" href="stylesheets/pygment_trac.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -15,7 +15,7 @@
     <body>
         <header>
             <div class="wrapper">
-                <img class="logo" src="images/motivate-logo.png">
+                <img class="logo" src="images/motivate-logo.png" alt='Motivate logo' >
             </div>
         </header>
         <div class="wrapper">
@@ -24,17 +24,17 @@
 
                 <p>We here at <a href="http://www.motivateco.com/">Motivate</a> love data, so we built this page for all the other transit and government data lovers out there that are interested in bike share system data. Its a centralized place for all of our data feeds, trip histories, our Data Use Policy, and links to some useful third-party bike share related libraries and tools.</p>
 
-                <p>This is a centralized place for all of our data feeds, trip histories, our Data Use Policy, and links to some useful third-party bike share related libraries and tools.</p>
-
                 <div class="bike-shares">
-                    <img src="images/babs.png" />
-                    <img src="images/columbus.png" />
-                    <img src="images/citibike.png" />
-                    <img src="images/divvy.png" />
-                    <img src="images/hubway.png" />
-                    <img src="images/melbourne.png" />
-                    <img src="images/pronto.png" />
-                    <img src="images/toronto.png" />
+                    <img src="images/babs.png" alt='Bay Area BikeShare logo' />
+                    <!-- <img src="images/cabi.png" alt='Capital Bikeshare logo' /> -->
+                    <!-- <img src="images/chattanooga.png" alt='Bike Chattanooga logo' /> -->
+                    <img src="images/citibike.png" alt='Citi Bike logo' />
+                    <img src="images/columbus.png" alt='CoGo logo' />
+                    <img src="images/divvy.png" alt='Divvy logo' />
+                    <img src="images/hubway.png" alt='Hubway logo' />
+                    <img src="images/melbourne.png" alt='Melbourne Bike Share logo' />
+                    <img src="images/pronto.png" alt='Pronto Cycle Share logo' />
+                    <img src="images/toronto.png" alt='Bikeshare Toronto logo' />
                 </div>
 
                 <h2>
@@ -49,11 +49,11 @@
 
                 <ul>
                     <li>Our feeds generally update once every minute. Please don't hit any one of them more often than that.</li>
-                    <li>Older feeds are in <a href="http://www.w3.org/XML//">XML</a> format, the newer ones are in <a href="http://www.json.org/">JSON</a> format.</li>
-                    <li>Each feed has an internal timestamp, use it to determine when the data was generated. The XML feeds use 13-digit unix timestamps including miliseconds.</li>
+                    <li>Some feeds are in <a href="http://www.w3.org/XML/">XML</a> format, others are in <a href="http://www.json.org/">JSON</a> format.</li>
+                    <li>Each feed has a timestamp, use it to determine when the data was generated. Some feeds use 13-digit unix timestamps including miliseconds, other use YYYY-MM-DD HH:MM:SS [AM|PM].</li>
                     <li>Every public station is listed in the feed with its lat/lon values. Sometimes an address, landmark, or city is also included.</li>
                     <li>The feed includes how many bicycles and docks are available at each station.</li>
-                    <li>Each station has an unique ID (id) that should never change.</li>
+                    <li>Each station has an unique id that should never change.</li>
                 </ul>
 
                 <h2>
@@ -61,80 +61,119 @@
                 </h2>
 
                 <ul>
-                    <li>
-                        <a href="http://www.melbournebikeshare.com.au/" title="http://www.melbournebikeshare.com.au/">Melbourne Bikeshare</a> - Melbourne, AU
+                    <li>  
+                        <a href="http://www.bayareabikeshare.com/">Bay Area Bike Share</a> - Bay Area, CA
                         <ul>
                             <li>
-                                <a href="http://www.melbournebikeshare.com.au/sites/default/files/XML/stations.xml" title="http://www.melbournebikeshare.com.au/sites/default/files/XML/stations.xml">XML Station Feed</a>
+                                <a href="http://www.bayareabikeshare.com/stations/json">JSON Station Feed</a>
+                            </li>
+                            <li>
+                                <a href="http://www.bayareabikeshare.com/datachallenge">System Data &amp; Challenge</a>
+                            </li>
+                            <li>
+                                <a href="http://www.bayareabikeshare.com/system-metrics">System Metrics</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://capitalbikeshare.com/system-data" title="http://capitalbikeshare.com/system-data">Capital Bikeshare</a> - Washington, DC; Arlington and Alexandria, VA; Montgomery County, MD
+                        <a href="http://www.capitalbikeshare.com/system-data">Capital Bikeshare</a> - Washington, DC; Arlington and Alexandria, VA; Montgomery County, MD
                         <ul>
                             <li>
-                                <a href="http://www.capitalbikeshare.com/data/stations/bikeStations.xml" title="http://www.capitalbikeshare.com/data/stations/bikeStations.xml">XML Station Feed</a>
+                                <a href="https://secure.capitalbikeshare.com/data/stations.json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a href="http://capitalbikeshare.com/trip-history-data" title="http://capitalbikeshare.com/trip-history-data">Trip History</a>
+                                <a href="http://www.capitalbikeshare.com/data/stations/bikeStations.xml">XML Station Feed</a> (Legacy)
+                            </li>
+                            <li>
+                                <a href="http://www.capitalbikeshare.com/system-data">System Data</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://thehubway.com/" title="http://thehubway.com/">Hubway</a> - Boston-Metro, MA
+                        <a href="http://www.bikechattanooga.com/">Bike Chattanooga</a> - Chattanooga, TN
                         <ul>
                             <li>
-                                <a href="http://www.thehubway.com/data/stations/bikeStations.xml" title="http://www.thehubway.com/data/stations/bikeStations.xml">XML Station Feed</a>
+                                <a href="http://www.bikechattanooga.com/stations/json">JSON Station Feed</a>
+                            </li>
+                            <li>
+                                <a href="https://data.chattlibrary.org/">Chattanooga Trip Dataset</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>  
+                        <a href="http://www.citibikenyc.com/">Citi Bike</a> - New York City, NY
+                        <ul>
+                            <li>
+                                <a href="https://member.citibikenyc.com/data/stations.json">JSON Station Feed</a>
+                            </li>
+                            <li>
+                                <a href="http://www.citibikenyc.com/stations/json">JSON Station Feed</a> (Legacy)
+                            </li>
+                            <li>
+                                <a href="http://www.citibikenyc.com/system-data">System Data</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>  
+                        <a href="http://www.cogobikeshare.com/">CoGo Bikeshare</a> - Columbus, OH
+                        <ul>
+                            <li>
+                                <a href="http://www.cogobikeshare.com/stations/json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.bikechattanooga.com/" title="http://www.bikechattanooga.com/">Bike Chattanooga</a> - Chattanooga, TN
+                        <a href="http://www.divvybikes.com/">Divvy Bikes</a> - Chicago, IL
                         <ul>
                             <li>
-                                <a href="http://www.bikechattanooga.com/stations/json" title="http://www.bikechattanooga.com/stations/json">JSON Station Feed</a>
+                                <a href="http://www.divvybikes.com/stations/json">JSON Station Feed</a>
                             </li>
-                        </ul>
-                    </li>
-                    <li>  <a href="http://citibikenyc.com/" title="http://citibikenyc.com/">Citi Bike</a> - New York City, NY
-
-                        <ul>
                             <li>
-                                <a href="http://www.citibikenyc.com/stations/json" title="http://www.citibikenyc.com/stations/json">JSON Station Feed</a>
+                                <a href="https://www.divvybikes.com/data">System Data</a>
+                            </li>
+                            <li>
+                                <a href="https://www.divvybikes.com/datachallenge">Data Challenge</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://divvybikes.com/" title="http://divvybikes.com/">Divvy Bikes</a> - Chicago, IL
-
+                        <a href="http://www.thehubway.com/">Hubway</a> - Boston-Metro, MA
                         <ul>
                             <li>
-                                <a href="http://www.divvybikes.com/stations/json" title="http://www.divvybikes.com/stations/json">JSON Station Feed</a>
+                                <a href="https://secure.thehubway.com/data/stations.json">JSON Station Feed</a>
+                            </li>
+                            <li>
+                                <a href="http://www.thehubway.com/data/stations/bikeStations.xml">XML Station Feed</a> (Legacy)
+                            </li>
+                            <li>
+                                <a href="http://hubwaydatachallenge.org">Hubway Data Challenge</a>
                             </li>
                         </ul>
                     </li>
-                    <li>  <a href="http://cogobikeshare.com/" title="http://cogobikeshare.com/">CoGo Bikeshare</a> - Columbus, OH
-
+                    <li>
+                        <a href="http://www.melbournebikeshare.com.au/">Melbourne Bikeshare</a> - Melbourne, AU
                         <ul>
                             <li>
-                                <a href="http://www.cogobikeshare.com/stations/json" title="http://www.cogobikeshare.com/stations/json">JSON Station Feed</a>
+                                <a href="http://www.melbournebikeshare.com.au/sites/default/files/XML/stations.xml">XML Station Feed</a>
                             </li>
                         </ul>
                     </li>
-                    <li>  <a href="http://bayareabikeshare.com/" title="http://bayareabikeshare.com/">Bay Area Bike Share</a> - Bay Area, CA
-
+                    <li>  
+                        <a href="http://www.prontocycleshare.com/">Pronto Cycle Share</a> - Seattle, WA
                         <ul>
-                            <li>
-                                <a href="http://www.bayareabikeshare.com/stations/json" title="http://www.bayareabikeshare.com/stations/json">JSON Station Feed</a>
+                            <li>  
+                                <a href="https://secure.prontocycleshare.com/data/stations.json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
-                    <li>  <a href="http://www.bikesharetoronto.com/" title="http://www.bikesharetoronto.com/">Bike Share Toronto</a> - Toronto, ON
-
+                    <li>  
+                        <a href="http://www.bikesharetoronto.com/">Bike Share Toronto</a> - Toronto, ON
                         <ul>
-                            <li>  <a href="http://www.bikesharetoronto.com/data/stations/bikeStations.xml" title="http://www.bikesharetoronto.com/data/stations/bikeStations.xml">XML Station Feed</a>
+                            <li>  
+                                <a href="http://www.bikesharetoronto.com/data/stations/bikeStations.xml">XML Station Feed</a>
                             </li>
-                            <li>  <a href="http://www.bikesharetoronto.com/stations/json" title="http://www.bikesharetoronto.com/stations/json">JSON Station Feed</a>
+                            <li>  
+                                <a href="http://www.bikesharetoronto.com/stations/json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
@@ -144,7 +183,7 @@
                     <a id="community-contributions" class="anchor" href="#community-contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Community Contributions</strong>
                 </h2>
 
-                <p>Motivate does not support any libraries, code, or data contained in any of the links in this section. That said, there is a thriving community of developers out there building tools to process our feeds, and we want to give them the attention they deserve.</p>
+                <p>Motivate does not support any libraries, code, or data contained in any of the links in this section. That said, there is a thriving community of developers out there building tools to process our feeds, and we want to give them the attention they deserve. If you have a project you would like listed here, please <a href="mailto:webadmin@motivateco.com">reach out to us</a>.</p>
 
                 <h3>
                     <a id="libraries" class="anchor" href="#libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Libraries</strong>
