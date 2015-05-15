@@ -4,11 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Motivate Developer Resources by motivateco</title>
-        <meta name="description" content="This is a centralized place for all Motivate data 
-
-feeds, trip histories, our Data Use Policy, and links to some useful third-party bike share 
-
-related libraries and tools.">
+        <meta name="description" content="This is a centralized place for all Motivate data feeds, trip histories, our Data Use Policy, and links to some useful third-party bike share related libraries and tools.">
         <link rel="stylesheet" href="stylesheets/styles.css">
         <link rel="stylesheet" href="stylesheets/pygment_trac.css">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -27,13 +23,7 @@ related libraries and tools.">
             <section>
                 <h1>Motivate Developer Resources</h1>
 
-                <p>We here at <a href="http://www.motivateco.com/">Motivate</a> love data. <a 
-
-href="http://developers.motivateco.com">developers.motivateco.com</a> is for transit and 
-
-government data lovers interested in bike share. You'll find links to our data feeds, trip 
-
-histories, our Data Use Policy, and some useful third-party libraries and tools.</p>
+                <p>We here at <a href="http://www.motivateco.com/">Motivate</a> love data. <a href="http://developers.motivateco.com">developers.motivateco.com</a> is for transit and government data lovers interested in bike share. You'll find links to our data feeds, trip histories, our Data Use Policy, and some useful third-party libraries and tools.</p>
 
                 <div class="bike-shares">
                     <img src="images/babs.png" alt='Bay Area BikeShare logo' />
@@ -49,101 +39,59 @@ histories, our Data Use Policy, and some useful third-party libraries and tools.
                 </div>
 
                 <h2>
-                    <a id="technical-details" class="anchor" href="#technical-details" aria-
-
-hidden="true"><span class="octicon octicon-link"></span></a><strong>Technical Details</strong>
+                    <a id="technical-details" class="anchor" href="#technical-details" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Technical Details</strong>
                 </h2>
 
                 <ul>
-                    <li>Our feeds generally update once every minute. Please don't hit any one 
-
-of them more often than that.</li>
-                    <li>Some feeds are in <a href="http://www.w3.org/XML/">XML</a> format, 
-
-others are in <a href="http://www.json.org/">JSON</a> format.</li>
-                    <li>Each feed has a timestamp, use it to determine when the data was 
-
-generated. Some feeds use 13-digit unix timestamps including miliseconds, other use YYYY-MM-DD 
-
-HH:MM:SS [AM|PM].</li>
-                    <li>Every public station is listed in the feed with its lat/lon values. 
-
-Sometimes an address, landmark, or city is also included.</li>
-                    <li>The feed includes how many bicycles and docks are available at each 
-
-station.</li>
+                    <li>Our feeds generally update once every minute. Please don't hit any one of them more often than that.</li>
+                    <li>Some feeds are in <a href="http://www.w3.org/XML/">XML</a> format, others are in <a href="http://www.json.org/">JSON</a> format.</li>
+                    <li>Each feed has a timestamp, use it to determine when the data was generated. Some feeds use 13-digit unix timestamps including miliseconds, other use YYYY-MM-DD HH:MM:SS [AM|PM].</li>
+                    <li>Every public station is listed in the feed with its lat/lon values. Sometimes an address, landmark, or city is also included.</li>
+                    <li>The feed includes how many bicycles and docks are available at each station.</li>
                     <li>Each station has an unique id that should never change.</li>
                 </ul>
 
                 <h2>
-                    <a id="systems--data-feeds" class="anchor" href="#systems--data-feeds" 
-
-aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Systems &amp; Data 
-
-Feeds</strong>
+                    <a id="systems--data-feeds" class="anchor" href="#systems--data-feeds" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Systems &amp; Data Feeds</strong>
                 </h2>
 
                 <ul>
                     <li>
-                        <a href="http://www.bayareabikeshare.com/">Bay Area Bike Share</a> - 
-
-Bay Area, CA
+                        <a href="http://www.bayareabikeshare.com/">Bay Area Bike Share</a> - Bay Area, CA
                         <ul>
                             <li>
-                                <a href="http://www.bayareabikeshare.com/stations/json">JSON 
-
-Station Feed</a>
+                                <a href="http://www.bayareabikeshare.com/stations/json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a href="http://www.bayareabikeshare.com/datachallenge">System 
-
-Data &amp; Challenge</a>
+                                <a href="http://www.bayareabikeshare.com/datachallenge">System Data &amp; Challenge</a>
                             </li>
                             <li>
-                                <a href="http://www.bayareabikeshare.com/system-metrics">System 
-
-Metrics</a>
+                                <a href="http://www.bayareabikeshare.com/system-metrics">System Metrics</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.capitalbikeshare.com/system-data">Capital 
-
-Bikeshare</a> - Washington, DC; Arlington and Alexandria, VA; Montgomery County, MD
+                        <a href="http://www.capitalbikeshare.com/system-data">Capital Bikeshare</a> - Washington, DC; Arlington and Alexandria, VA; Montgomery County, MD
                         <ul>
                             <li>
-                                <a 
-
-href="https://secure.capitalbikeshare.com/data/stations.json">JSON Station Feed</a>
+                                <a href="https://secure.capitalbikeshare.com/data/stations.json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a 
-
-href="http://www.capitalbikeshare.com/data/stations/bikeStations.xml">XML Station Feed</a> 
-
-(Legacy)
+                                <a href="http://www.capitalbikeshare.com/data/stations/bikeStations.xml">XML Station Feed</a> (Legacy)
                             </li>
                             <li>
-                                <a href="http://www.capitalbikeshare.com/system-data">System 
-
-Data</a>
+                                <a href="http://www.capitalbikeshare.com/system-data">System Data</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.bikechattanooga.com/">Bike Chattanooga</a> - 
-
-Chattanooga, TN
+                        <a href="http://www.bikechattanooga.com/">Bike Chattanooga</a> - Chattanooga, TN
                         <ul>
                             <li>
-                                <a href="http://www.bikechattanooga.com/stations/json">JSON 
-
-Station Feed</a>
+                                <a href="http://www.bikechattanooga.com/stations/json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a href="https://data.chattlibrary.org/">Chattanooga Trip 
-
-Dataset</a>
+                                <a href="https://data.chattlibrary.org/">Chattanooga Trip Dataset</a>
                             </li>
                         </ul>
                     </li>
@@ -151,36 +99,24 @@ Dataset</a>
                         <a href="http://www.citibikenyc.com/">Citi Bike</a> - New York City, NY
                         <ul>
                             <li>
-                                <a 
-
-href="https://member.citibikenyc.com/data/stations.json">JSON Station Feed</a>
+                                <a href="https://member.citibikenyc.com/data/stations.json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a href="http://www.citibikenyc.com/stations/json">JSON Station 
-
-Feed</a> (Legacy)
+                                <a href="http://www.citibikenyc.com/stations/json">JSON Station Feed</a> (Legacy)
                             </li>
                             <li>
-                                <a href="http://www.citibikenyc.com/system-data">System 
-
-Data</a>
+                                <a href="http://www.citibikenyc.com/system-data">System Data</a>
                             </li>
                             <li>
-                                <a href="http://www.citibikenyc.com/data-sharing-policy">Data 
-
-Sharing Policy, Developer and Researcher License Agreement</a>
+                                <a href="http://www.citibikenyc.com/data-sharing-policy">Data Sharing Policy, Developer and Researcher License Agreement</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.cogobikeshare.com/">CoGo Bikeshare</a> - Columbus, 
-
-OH
+                        <a href="http://www.cogobikeshare.com/">CoGo Bikeshare</a> - Columbus, OH
                         <ul>
                             <li>
-                                <a href="http://www.cogobikeshare.com/stations/json">JSON 
-
-Station Feed</a>
+                                <a href="http://www.cogobikeshare.com/stations/json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
@@ -188,17 +124,13 @@ Station Feed</a>
                         <a href="http://www.divvybikes.com/">Divvy Bikes</a> - Chicago, IL
                         <ul>
                             <li>
-                                <a href="http://www.divvybikes.com/stations/json">JSON Station 
-
-Feed</a>
+                                <a href="http://www.divvybikes.com/stations/json">JSON Station Feed</a>
                             </li>
                             <li>
                                 <a href="https://www.divvybikes.com/data">System Data</a>
                             </li>
                             <li>
-                                <a href="https://www.divvybikes.com/datachallenge">Data 
-
-Challenge</a>
+                                <a href="https://www.divvybikes.com/datachallenge">Data Challenge</a>
                             </li>
                         </ul>
                     </li>
@@ -206,152 +138,95 @@ Challenge</a>
                         <a href="http://www.thehubway.com/">Hubway</a> - Boston-Metro, MA
                         <ul>
                             <li>
-                                <a href="https://secure.thehubway.com/data/stations.json">JSON 
-
-Station Feed</a>
+                                <a href="https://secure.thehubway.com/data/stations.json">JSON Station Feed</a>
                             </li>
                             <li>
-                                <a 
-
-href="http://www.thehubway.com/data/stations/bikeStations.xml">XML Station Feed</a> (Legacy)
+                                <a href="http://www.thehubway.com/data/stations/bikeStations.xml">XML Station Feed</a> (Legacy)
                             </li>
                             <li>
-                                <a href="http://hubwaydatachallenge.org">Hubway Data 
-
-Challenge</a>
+                                <a href="http://hubwaydatachallenge.org">Hubway Data Challenge</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.melbournebikeshare.com.au/">Melbourne Bikeshare</a> 
-
-- Melbourne, AU
+                        <a href="http://www.melbournebikeshare.com.au/">Melbourne Bikeshare</a> - Melbourne, AU
                         <ul>
                             <li>
-                                <a 
-
-href="http://www.melbournebikeshare.com.au/sites/default/files/XML/stations.xml">XML Station 
-
-Feed</a>
+                                <a href="http://www.melbournebikeshare.com.au/sites/default/files/XML/stations.xml">XML Station Feed</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.prontocycleshare.com/">Pronto Cycle Share</a> - 
-
-Seattle, WA
+                        <a href="http://www.prontocycleshare.com/">Pronto Cycle Share</a> - Seattle, WA
                         <ul>
                             <li>
-                                <a 
-
-href="https://secure.prontocycleshare.com/data/stations.json">JSON Station Feed</a>
+                                <a href="https://secure.prontocycleshare.com/data/stations.json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="http://www.bikesharetoronto.com/">Bike Share Toronto</a> - 
-
-Toronto, ON
+                        <a href="http://www.bikesharetoronto.com/">Bike Share Toronto</a> - Toronto, ON
                         <ul>
                             <li>
-                                <a 
-
-href="http://www.bikesharetoronto.com/data/stations/bikeStations.xml">XML Station Feed</a>
+                                <a href="http://www.bikesharetoronto.com/data/stations/bikeStations.xml">XML Station Feed</a>
                             </li>
                             <li>
-                                <a href="http://www.bikesharetoronto.com/stations/json">JSON 
-
-Station Feed</a>
+                                <a href="http://www.bikesharetoronto.com/stations/json">JSON Station Feed</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
 
                 <h2>
-                    <a id="community-contributions" class="anchor" href="#community-
-
-contributions" aria-hidden="true"><span class="octicon octicon-
-
-link"></span></a><strong>Community Contributions</strong>
+                    <a id="community-contributions" class="anchor" href="#community-contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Community Contributions</strong>
                 </h2>
 
-                <p>Motivate does not support any libraries, code, or data contained in any of 
-
-the links in this section. That said, there is a thriving community of developers out there 
-
-building tools to process our feeds, and we want to give them the attention they deserve. If 
-
-you have a project you would like listed here, please <a 
-
-href="mailto:webadmin@motivateco.com">reach out to us</a>.</p>
+                <p>Motivate does not support any libraries, code, or data contained in any of the links in this section. That said, there is a thriving community of developers out there building tools to process our feeds, and we want to give them the attention they deserve. If you have a project you would like listed here, please <a href="mailto:webadmin@motivateco.com">reach out to us</a>.</p>
 
                 <h3>
-                    <a id="libraries" class="anchor" href="#libraries" aria-hidden="true"><span 
-
-class="octicon octicon-link"></span></a><strong>Libraries</strong>
+                    <a id="libraries" class="anchor" href="#libraries" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Libraries</strong>
                 </h3>
 
                 <ul>
                     <li>
-                        <a href="https://github.com/harlanyu/Capital-Bikeshare-Scraper">Capital 
-
-Bikeshare Personal Trip History Scrapper</a>
+                        <a href="https://github.com/harlanyu/Capital-Bikeshare-Scraper">Capital Bikeshare Personal Trip History Scrapper</a>
                     </li>
                 </ul>
 
                 <h3>
-                    <a id="data-stores" class="anchor" href="#data-stores" aria-
-
-hidden="true"><span class="octicon octicon-link"></span></a><strong>Data Stores</strong>
+                    <a id="data-stores" class="anchor" href="#data-stores" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Data Stores</strong>
                 </h3>
 
                 <ul>
                     <li>
-                        <a href="http://opendatadc.org/dataset/capital-bikeshare-dock-
-
-history">Capital Bikeshare Dock History</a>
+                        <a href="http://opendatadc.org/dataset/capital-bikeshare-dock-history">Capital Bikeshare Dock History</a>
                     </li>
                 </ul>
 
-                <h3>
-                    <a id="data-stores" class="anchor" href="#data-tools" aria-
-
-hidden="true"><span class="octicon octicon-link"></span></a><strong>Tools for Interfacing with 
-
-our Data</strong>
+				<h3>
+                    <a id="data-stores" class="anchor" href="#data-tools" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Tools for Interfacing with our Data</strong>
                 </h3>
 
                 <h4>Citibike</h4>
                 <ul>
                     <li>
-                        <a href="https://github.com/edgar/citibikenyc">The unofficial gem for 
-
-the CitibikeNYC API </a>
+                        <a href="https://github.com/edgar/citibikenyc">The unofficial gem for the CitibikeNYC API </a>
                     </li>
-                    <li><a href="https://github.com/KevinTCoughlin/citibike/">A Node.js library 
-
-for Citibike's REST API</a></li>
+                    <li><a href="https://github.com/KevinTCoughlin/citibike/">A Node.js library for Citibike's REST API</a></li>
                 </ul>
+                
                 <h4>Hubway</h4>
                 <ul>                 
-                    <li><a href="https://github.com/darkmoves/ruby_rides">Ruby gem to interact 
-
-with the Hubway data API. </a></li>
+                    <li><a href="https://github.com/darkmoves/ruby_rides">Ruby gem to interact with the Hubway data API. </a></li>
 				</ul>  
-                
+				
                 <h3>
-                    <a id="projects--visualizations" class="anchor" href="#projects--
-
-visualizations" aria-hidden="true"><span class="octicon octicon-
-
-link"></span></a><strong>Projects &amp; Visualizations</strong>
+                    <a id="projects--visualizations" class="anchor" href="#projects--visualizations" aria-hidden="true"><span class="octicon octicon-link"></span></a><strong>Projects &amp; Visualizations</strong>
                 </h3>
 
                 <ul>
                     <li>
-                        <a href="http://bikes.oobrien.com/global.php">Oliver O'Brien's Global 
-
-Bike Share Map</a>
+                        <a href="http://bikes.oobrien.com/global.php">Oliver O'Brien's Global Bike Share Map</a>
                     </li>
                     <li>
                         <a href="http://hubwaydatachallenge.org/">Hubway Data Challenge</a>
@@ -363,31 +238,21 @@ Bike Share Map</a>
                         <a href="http://cmgiven.github.io/bikeshare-odds/">Bikeshare Odds</a>
                     </li>
                     <li>
-                        <a href="http://mvjantzen.com/cabi/tools/meetup.html">Various by 
-
-Michael Schade</a>
+                        <a href="http://mvjantzen.com/cabi/tools/meetup.html">Various by Michael Schade</a>
                     </li>
                     <li>
-                        <a href="https://github.com/dssg/bikeshare/wiki">Data Science for 
-
-Social Good's predictive models</a>
+                        <a href="https://github.com/dssg/bikeshare/wiki">Data Science for Social Good's predictive models</a>
                     </li>
                     <li>
                         <a href="http://divvybrags.com/">Divvy Brags</a>
                     </li>
                     <li>
-                        Missing a project? <a 
-
-href="https://github.com/motivateco/motivateco.github.io/">Submit a pull request</a>
+                        Missing a project? <a href="https://github.com/motivateco/motivateco.github.io/">Submit a pull request</a>
                     </li>
                 </ul>
                 <div class="footer">
-                    <p>This project is maintained by <a 
-
-href="https://github.com/motivateco">motivateco</a></p>
-                    <p><small>Hosted on GitHub Pages &mdash; Theme by <a 
-
-href="https://github.com/orderedlist">orderedlist</a></small></p>
+                    <p>This project is maintained by <a href="https://github.com/motivateco">motivateco</a></p>
+                    <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
                 </div>
             </section>
         </div>
